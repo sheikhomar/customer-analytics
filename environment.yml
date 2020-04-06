@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - anaconda
   - districtdatalabs
+  - plotly
 dependencies:
   - python=3.8
   - numpy
@@ -14,6 +15,7 @@ dependencies:
   - jupyterlab
   - black
   - yellowbrick
+  - plotly=4.6.0
   - pip
   - pip:
     - statsmodels
