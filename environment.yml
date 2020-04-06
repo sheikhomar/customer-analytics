@@ -2,6 +2,7 @@ name: ca
 channels:
   - conda-forge
   - anaconda
+  - districtdatalabs
 dependencies:
   - python=3.8
   - numpy
@@ -12,6 +13,7 @@ dependencies:
   - matplotlib
   - jupyterlab
   - black
+  - yellowbrick
   - pip
   - pip:
     - statsmodels
